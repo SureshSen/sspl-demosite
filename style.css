@@ -1,0 +1,374 @@
+/* styling for ah-ha-demo teaser */
+#mainDiv {
+  background-color: #ffffff00;
+  height: 570px;
+  width: 500px;
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
+  z-index: 1000;
+}
+#teaser-div {
+  background-color: white;
+  margin: 15px;
+  height: 60%;
+  position: absolute;
+  bottom: 5%;
+  width: 400px;
+  border: 2px solid rgb(57, 37, 107);
+  z-index: 1000;
+}
+
+#iframe-div {
+  background-color: white;
+  margin: 15px;
+  height: 80%;
+  width: 500px;
+  right: 80px;
+  bottom: 64px;
+  position: fixed;
+  background: url(/demo-ah-ha-io/assets/loading.gif) center center no-repeat white;
+  z-index: 1000;
+}
+#ah-ha-chat-iframe {
+  height: 100%;
+  width: 500px;
+  z-index: 1000;
+}
+#chat-icon-open-div {
+  background-color: #ffffff00;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  z-index: 1000;
+}
+
+#chat-icon-close-div {
+  background-color: #ffffff00;
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  z-index: 1000;
+}
+
+#header-rectangle {
+  display: block;
+  height: 40px;
+  background-color: rgb(57, 37, 107);
+}
+#logoDiv {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  margin: auto;
+  background-color: rgb(245, 243, 243);
+  margin-top: -42px;
+}
+img#logoIcon {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+}
+
+#greetingText {
+  color: rgb(41, 7, 80);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#introText {
+  white-space: pre-wrap;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 3px;
+  margin-top: 13px;
+}
+
+#startButtonDiv {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#button-tag {
+  width: 195px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: rgb(110, 203, 174);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+}
+div#teaser-body {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  #iframe-div {
+    margin: 0px;
+    height: 82%;
+    width: 100%;
+    right: 0px;
+    margin-bottom: 8%;
+  }
+  #ah-ha-chat-iframe {
+    height: 100%;
+    width: 100%;
+  }
+  #teaser-div {
+    height: 50%;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+  }
+  #mainDiv {
+    height: 90%;
+    width: 80%;
+    right: 44px;
+    bottom: 54px;
+    position: fixed;
+  }
+  div#teaser-body {
+    margin-top: 14%;
+  }
+  #startButtonDiv {
+    margin-top: 1%;
+  }
+  #greetingText {
+    font-size: 1.2rem;
+  }
+  #introText {
+    font-size: 0.9rem;
+    padding: 0px;
+    margin: 3px;
+  }
+  #button-tag {
+    width: 182px;
+    height: 23px;
+    font-size: 0.9rem;
+  }
+  #logoDiv {
+    height: 16vw;
+    width: 16vw;
+  }
+  img#logoIcon {
+    height: 16vw;
+    width: 16vw;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 496px) {
+  #iframe-div {
+    margin: 0px;
+    height: 85%;
+    width: 100%;
+    right: 0px;
+    margin-bottom: 5%;
+  }
+  #ah-ha-chat-iframe {
+    height: 100%;
+    width: 100%;
+  }
+  #teaser-div {
+    height: 50%;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+  }
+  #mainDiv {
+    height: 90%;
+    width: 80%;
+    right: 44px;
+    bottom: 54px;
+    position: fixed;
+  }
+  div#teaser-body {
+    margin-top: 14%;
+  }
+}
+@media screen and (min-width: 497px) and (max-width: 600px) {
+  #iframe-div {
+    margin: 15px;
+    height: 80%;
+    width: 400px;
+    right: 77px;
+    bottom: 78px;
+    position: fixed;
+  }
+  #ah-ha-chat-iframe {
+    height: 100%;
+    width: 400px;
+  }
+  #teaser-div {
+    margin: 15px;
+    height: 60%;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+  }
+  #mainDiv {
+    height: 90%;
+    width: 80%;
+    right: 100px;
+    bottom: 10px;
+    position: fixed;
+  }
+}
+/* media queries to teaser header, logo and body */
+
+@media screen and (max-width: 496px) {
+  #logoDiv {
+    height: 14vw;
+    width: 14vw;
+    margin-top: -42px;
+  }
+  img#logoIcon {
+    height: 14vw;
+    width: 14vw;
+    border-radius: 50%;
+  }
+  #greetingText {
+    font-size: 1.5rem;
+  }
+  #introText {
+    font-size: 1rem;
+    padding: 7px;
+    margin: 3px;
+  }
+
+  #button-tag {
+    width: 201px;
+    height: 26px;
+    font-size: 0.9rem;
+  }
+  #teaser-body {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 497px) {
+  #logoDiv {
+    height: 8vw;
+    width: 8vw;
+    margin-top: -42px;
+  }
+  img#logoIcon {
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+  }
+  #greetingText {
+    text-align: center;
+    font-size: 2rem;
+  }
+  #introText {
+    font-size: 1.3rem;
+    padding: 7px;
+    margin: 3px;
+  }
+
+  #startButtonDiv {
+    margin-top: 1rem;
+  }
+
+  #button-tag {
+    width: 250px;
+    height: 48px;
+    font-size: 1.2rem;
+  }
+  #teaser-body {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  #logoDiv {
+    height: 4vw;
+    width: 4vw;
+    margin-top: -42px;
+  }
+  img#logoIcon {
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+  }
+  #greetingText {
+    font-size: 2rem;
+  }
+  #introText {
+    font-size: 1.3rem;
+    padding: 7px;
+    margin: 3px;
+  }
+
+  #startButtonDiv {
+    margin-top: 1rem;
+  }
+
+  #button-tag {
+    width: 250px;
+    height: 48px;
+    font-size: 1.2rem;
+  }
+  #teaser-body {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 496px) {
+  #startButtonDiv {
+    margin-top: 10%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #teaser-div {
+    height: 60%;
+  }
+
+  div#teaser-body {
+    margin-top: 2%;
+  }
+}
+
+/* for client's requirement resolution - mac-book-air */
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+  #iframe-div {
+    margin-right: 5px;
+    height: 60%;
+    width: 300px;
+    right: 10px;
+    bottom: 84px;
+    position: fixed;
+  }
+  #ah-ha-chat-iframe {
+    width: 300px;
+  }
+  #teaser-div {
+    height: 50%;
+    width: 350px;
+    right: 10px;
+    top: 175px;
+  }
+  #logoDiv {
+    height: 4vw;
+    width: 4vw;
+    margin-top: -42px;
+  }
+  img#logoIcon {
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+  }
+  #button-tag {
+    width: 234px;
+    height: 33px;
+    font-size: 1.2rem;
+  }
+}
+
